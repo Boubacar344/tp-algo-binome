@@ -1,3 +1,17 @@
-## Série A (étudiant A)
+Algorithme CalculTTC
+Variables
+    HT, tauxTVA, montantTVA, TTC : Réel
 
-## Série B (étudiant B)
+Début
+    Afficher("Entrez le prix hors taxe (HT) : ")
+    Lire(HT)
+
+    Afficher("Entrez le taux de TVA (en %) : ")
+    Lire(tauxTVA)
+
+    montantTVA ← HT * (tauxTVA / 100)
+    TTC ← HT + montantTVA
+
+    Afficher("Montant de la TVA : ", montantTVA)
+    Afficher("Prix TTC : ", TTC)
+Fin
