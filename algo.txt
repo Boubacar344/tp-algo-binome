@@ -15,3 +15,18 @@ Début
     Afficher("Montant de la TVA : ", montantTVA)
     Afficher("Prix TTC : ", TTC)
 Fin
+
+----------------------------------------
+
+Algorithme CelsiusVersFahrenheit
+Variables
+    C, F : Réel
+
+Début
+    Afficher("Entrez la température en degrés Celsius : ")
+    Lire(C)
+
+    F ← C * (9 / 5) + 32
+
+    Afficher("Température en Fahrenheit : ", F)
+Fin
